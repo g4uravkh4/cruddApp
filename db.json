@@ -18,28 +18,28 @@
   },
   "employee": [
     {
-      "firstName": "Suman",
-      "lastName": "Cimo",
-      "email": "madrid@mail.com",
-      "dob": "1999-11-09T18:15:00.000Z",
+      "firstName": "Saurav",
+      "lastName": "Khatiwada",
+      "email": "snoopy@gmail.com",
+      "dob": "2003-07-29T18:15:00.000Z",
       "gender": "male",
-      "education": "",
-      "company": "Skts",
-      "experience": 10,
-      "package": 1000,
-      "id": 1
+      "education": "+2",
+      "company": "Badmas Companyis",
+      "experience": 1,
+      "package": 10000,
+      "id": 20
     },
     {
-      "firstName": "Bimo",
-      "lastName": "NIraula",
-      "email": "bimu@mail.com",
-      "dob": "2016-01-02T18:15:00.000Z",
+      "firstName": "Aadi",
+      "lastName": "Bro",
+      "email": "aadu@gmail.com",
+      "dob": "2007-02-03T18:15:00.000Z",
       "gender": "male",
-      "education": "",
-      "company": "Skts",
-      "experience": 2,
-      "package": 1000,
-      "id": 2
+      "education": "+2",
+      "company": "hawa huri",
+      "experience": 1,
+      "package": 10000,
+      "id": 21
     }
   ]
 }

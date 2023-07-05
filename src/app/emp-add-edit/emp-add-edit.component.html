@@ -41,11 +41,8 @@
     <div class="row">
       <mat-form-field appearance="outline">
         <mat-label>Education</mat-label>
-        <mat-select>
-          <mat-option
-            *ngFor="let val of education"
-            [value]="val"
-            formControlName="education"
+        <mat-select formControlName="education">
+          <mat-option *ngFor="let val of education" [value]="val"
             >{{ val }}
           </mat-option>
         </mat-select>
@@ -68,7 +65,11 @@
   </div>
 
   <div mat-dialog-actions class="button">
-    <button mat-raised-button>Cancel</button>
-    <button mat-raised-button color="primary" type="submit">Save</button>
+    <button mat-raised-button type="button" [mat-dialog-close]="false">
+      Cancel
+    </button>
+    <button mat-raised-button color="primary" type="submit">
+      {{ data ? "Update" : "Save" }}
+    </button>
   </div>
 </form>
