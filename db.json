@@ -1,0 +1,45 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "employee": [
+    {
+      "firstName": "Suman",
+      "lastName": "Cimo",
+      "email": "madrid@mail.com",
+      "dob": "1999-11-09T18:15:00.000Z",
+      "gender": "male",
+      "education": "",
+      "company": "Skts",
+      "experience": 10,
+      "package": 1000,
+      "id": 1
+    },
+    {
+      "firstName": "Bimo",
+      "lastName": "NIraula",
+      "email": "bimu@mail.com",
+      "dob": "2016-01-02T18:15:00.000Z",
+      "gender": "male",
+      "education": "",
+      "company": "Skts",
+      "experience": 2,
+      "package": 1000,
+      "id": 2
+    }
+  ]
+}
