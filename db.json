@@ -28,18 +28,6 @@
       "experience": 1,
       "package": 10000,
       "id": 20
-    },
-    {
-      "firstName": "Aadi",
-      "lastName": "Bro",
-      "email": "aadu@gmail.com",
-      "dob": "2007-02-03T18:15:00.000Z",
-      "gender": "male",
-      "education": "+2",
-      "company": "hawa huri",
-      "experience": 1,
-      "package": 10000,
-      "id": 21
     }
   ]
 }
